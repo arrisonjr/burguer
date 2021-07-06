@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Russo+One&display=swap");
+
+h1 {
+  font-family: "Russo One", sans-serif;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.bg-dark {
+  background: none !important;
+}
+
+#topo {
+  height: 80vh;
+  background-image: url(bg.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.texto {
+  text-align: center;
+  color: #fff;
+  padding-top: 200px;
+}
+
+#sobre {
+  padding: 40px 0;
+}
+
+#cardapio {
+  background: #222;
+  color: #fff;
+  padding: 40px 0;
+}
+
+#sede {
+  padding: 40px 0;
+}
+
+#pre-footer {
+  background: #1f1f1f;
+  padding: 40px 0;
+}
+
+#pre-footer a i {
+  color: #fff;
+  padding: 10px;
+}
+
+#footer {
+  background: #171717;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.topo {
+  text-decoration: none;
+  color: #fff;
+}
+
+.topo:hover {
+  color: #c5c5c5;
+  transition: 0.2s ease-in-out;
+}
+
+@media (max-width: 739px) {
+  .texto {
+    padding-top: 100px;
+  }
+  #sobre img {
+    padding-bottom: 20px;
+  }
+  .item-1,
+  .item-2 {
+    padding-bottom: 50px;
+  }
+  #sede img {
+    padding-bottom: 20px;
+  }
+}
